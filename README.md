@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 AI-Powered Virtual Teaching Assistant for Analysis of Algorithms (AoA)
 
 An interactive web-based learning assistant designed to help students understand **Analysis of Algorithms (AoA)** concepts through **chat** and **voice interaction**.
@@ -170,3 +171,22 @@ All rights reserved © 2025.
 ---
 
 **Developed with 💙 by Team AoA Assistant**
+=======
+# AoA Teaching Assistant
+
+## Run backend
+cd backend
+npm install
+npm run dev
+
+## Run frontend
+cd frontend
+npm install
+npm run dev
+
+## Environment variables (backend/.env)
+PORT=5000
+MONGODB_URI=...
+GEMINI_API_KEY=...
+JWT_SECRET=...
+>>>>>>> ae0ee91 (chore: project folders and basic placeholders (Task 2))
